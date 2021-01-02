@@ -15,7 +15,7 @@ class App extends Component {
   _isMounted = false;
   state = {
     authed: false,
-    loading: true,
+    loading: false,
     theme: ""
   };
 
