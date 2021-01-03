@@ -1,0 +1,26 @@
+.chat {
+    height: 100%;
+    width: 17%;
+    background-color: $color-dark2;
+    padding: 20px 10px;
+    justify-content: space-between;
+    &__messages {
+        height: 90%;
+        width: 100%;
+    }
+    &__input {
+        background-color: $color-dark;
+        width: 100%;
+        border: 0;
+        color: white;
+        height: 7%;
+        resize: none;
+        border-radius: 3px;
+        font-family: "Poppins";
+        padding: 10px;
+        &:focus {
+            outline: 0;
+            box-shadow: 0 0 0 2pt $color-gray
+        }
+    }
+}
